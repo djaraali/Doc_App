@@ -1,0 +1,58 @@
+
+// body {
+// 	background-color: #f0f3ff;
+// }
+
+.heading {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	color: var(--page-title-color);
+	font-family: var(--font-title);
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	&::after {
+		position: absolute;
+		top: 51%;
+		overflow: hidden;
+		width: 100%;
+		height: 1px;
+		content: "\a0";
+		background-color: rgba($color: #000, $alpha: 0.2);
+		margin-left: 10px;
+	}
+}
+.active {
+	
+	color: #FF4C6A !important;
+	&::before {
+		background: transparent !important;
+	}
+}
+// .active {
+// 	&:active {
+// 		background-color: #FF4C6A;
+// 	}
+// }
+.custom-icon {
+	width: 25px !important;
+	fill: currentColor;
+}
+.hooper-list, .hooper-track, .hooper {
+    &:focus {
+        outline: none !important;
+    }
+}
+
+.hooper-list ul, .hooper-list ol {
+    padding-left: 0 !important;
+}
+
+.ck-editor__editable {
+    min-height: 300px;
+}
+
+.ck.ck-editor__main {
+	color: black;
+}

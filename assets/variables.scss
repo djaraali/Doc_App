@@ -1,0 +1,19 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+@import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700&display=swap');
+
+
+:root {
+    --sidebar-font-color: #f5f6fa;
+    --sidebar-background-color: #2C3248;
+
+    --body-background-color: #f0f3ff;
+    --body-font-color: #ffff;
+
+    --topnav-background-color: #ffff;
+    --topnav-font-color: #2C3248;
+
+    --font-title: 'Muli', sans-serif;
+}
